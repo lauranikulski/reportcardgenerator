@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<html> 
+    <head>
+        {% load static %}
+        {% block head %}
+        <link rel="stylesheet" href="{% static 'reportcardapp/styles.css' %}">
+        {% endblock %}
+    </head>
+    <body>
+        <h1>Report Card Generator</h1>
+        {% block content %}
+        {% endblock %}
+    </body> 
+</html>
